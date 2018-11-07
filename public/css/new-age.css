@@ -475,6 +475,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .card {
   color: black;
+  display: inline-block;
 }
 
 .result_table {
@@ -523,7 +524,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .board {
   visibility:hidden;
-  display: none;
+  display: flex;
+  flex-wrap: wrap;
   width:100%;
 }
 /*.card.more {*/

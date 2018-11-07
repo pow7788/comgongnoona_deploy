@@ -49,3 +49,5 @@ group :development do
   gem 'spring'
 end
 
+#AWS 배포
+gem 'figaro' #중요한정보 외부노출방지
